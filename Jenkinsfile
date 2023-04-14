@@ -8,5 +8,13 @@ python3 -m pip freeze'''
       }
     }
 
+    stage('list of files') {
+      steps {
+        sh '''ls -la
+python3 -V
+'''
+      }
+    }
+
   }
 }
