@@ -18,7 +18,8 @@ python3 -V
 
     stage('get python verson') {
       steps {
-        sh 'python3 -V'
+        sh '''ls -la
+python3 -V'''
       }
     }
 
